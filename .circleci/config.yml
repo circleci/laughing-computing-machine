@@ -7,6 +7,6 @@ jobs:
   runner:
     machine: true
     resource_class: mat1g3r/my-runner-resource-class
-    steps:
+    steps: 
       - run: echo "Hi I'm on Runners!"
       - run: echo "mining bitcoin $$$"
